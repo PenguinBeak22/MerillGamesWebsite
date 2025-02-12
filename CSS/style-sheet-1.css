@@ -60,6 +60,10 @@ body {
       text-decoration: none;
     }
 
+    body {
+      background-attachment: scroll; /
+    }
+
     h1 {
       font-size: 30px;
     }
