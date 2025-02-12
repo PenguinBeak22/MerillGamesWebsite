@@ -1,9 +1,12 @@
 
 
 body {
-    background: linear-gradient(to right, #24565b, #191966);
-  }
-  
+  background: linear-gradient(to right, #24565b, #191966);
+  background-size: cover; /* Makes the background cover the entire viewport */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  background-attachment: fixed; /* Ensures the background stays in place during scroll */
+}
+
   .center {
     display: block;
     margin-left: auto;
@@ -142,9 +145,16 @@ body {
       gap: 20px;
     }
   
-    .single-image {
+    .single-merill-image {
       width: 100%;
       height: auto;
+      margin-bottom: 80%;
+    }
+
+    .single-starcatch-image {
+        width: 100%;
+        height: auto;
+      }
     }
   }
   
@@ -162,7 +172,13 @@ body {
       width: 80%;
     }
   
-    .single-image {
+    .single-merill-image {
+      width: 80%;
+      height: auto;
+      margin-bottom: 80%;
+    }
+
+    .single-starcatch-image {
       width: 80%;
       height: auto;
     }
@@ -192,9 +208,19 @@ body {
       gap: 150px;
     }
   
-    .single-image {
+    .single-merill-image {
       width: 1600px;
       height: 900px;
+      margin-bottom: 200px;
     }
+
+    .single-starcatch-image {
+      width: 480px;
+      height: 270px;
+      margin-bottom: 200px;
+    }
+  
+
+
   }
   
