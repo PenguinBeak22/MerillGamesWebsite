@@ -27,13 +27,7 @@ body {
   }
   
 
-  .game_img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+ 
   
   .game_img:hover {
     transform: scale(1.20);
@@ -118,7 +112,7 @@ body {
       }
 
 
-      .privacy-headings-container {
+    .privacy-headings-container {
         display: flex;
         justify-content: left;
         margin-left: 50px;
@@ -126,22 +120,32 @@ body {
         margin-top: 15px; 
       }
       
-      .privacy-mini-container {
+    .privacy-mini-container {
         display: flex;
         justify-content: left;
         margin-left: 20px;
         margin-bottom: 15px; 
       }
 
-      .single-image {
+    .single-image {
         margin-bottom: 75px;
       }
       
-      li {
+    li {
         font-size: 7px;
         font-family: Lexend;
         color: white;
       }
+
+      .game_img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+        width: 50%;
+        height: auto;
+        display: block;
+    
+        }
+    
     
     }
   
@@ -231,8 +235,15 @@ body {
       font-family: Lexend;
       color: white;
     }
+
+    .game_img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      width: 70%;
+      height: auto;
+      display: block;
   
-  }
+      }
   
   /* Desktop Styles */
   @media (min-width: 1025px) {
@@ -303,7 +314,7 @@ body {
 
       
   
-  .privacy-headings-container {
+    .privacy-headings-container {
     display: flex;
     justify-content: left;
     margin-left: 100px;
@@ -311,25 +322,33 @@ body {
     margin-top: 40px; 
   }
   
-  .privacy-mini-container {
+    .privacy-mini-container {
     display: flex;
     justify-content: left;
     margin-left: 50px;
     margin-bottom: 40px; 
   }
 
-  .single-image {
+    .single-image {
     margin-bottom: 200px;
   }
   
-  li {
+    li {
     font-size: 20px;
     font-family: Lexend;
     color: white;
   }
 
+    .game_img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
   
 
 
   }
-  
+  }
