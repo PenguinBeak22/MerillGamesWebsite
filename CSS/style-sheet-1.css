@@ -4,7 +4,6 @@ body {
   background: linear-gradient(to right, #24565b, #191966);
   background-size: cover; /* Makes the background cover the entire viewport */
   background-repeat: no-repeat; /* Prevents the background from repeating */
-  background-attachment: fixed; /* Ensures the background stays in place during scroll */
 }
 
   .center {
@@ -144,7 +143,7 @@ body {
       .game_img {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        width: 50%;
+        width: 25%;
         height: auto;
         display: block;
     
@@ -156,6 +155,11 @@ body {
   
   /* Tablet Styles */
   @media (min-width: 601px) and (max-width: 1024px) {
+
+    body {
+      background-attachment: scroll; /* Ensures the background stays in place during scroll */
+    }
+    
     a {
       font-size: 20px;
       font-family: Lexend;
@@ -183,7 +187,6 @@ body {
       font-family: Lexend;
       color: white;
     }
-
 
 
 
@@ -243,14 +246,17 @@ body {
     .game_img {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-      width: 70%;
+      width: 40%;
       height: auto;
       display: block;
   
       }
+    }
   
   /* Desktop Styles */
-  @media (min-width: 1025px) {
+  @media (min-width: 1020px) {
+
+
     h1 {
       font-size: 100px;
       font-family: Lexend;
@@ -324,35 +330,30 @@ body {
     margin-left: 100px;
     margin-bottom: 40px;
     margin-top: 40px; 
-  }
+    }
   
     .privacy-mini-container {
     display: flex;
     justify-content: left;
     margin-left: 50px;
     margin-bottom: 40px; 
-  }
+    }
 
     .single-image {
     margin-bottom: 200px;
-  }
+    }
   
     li {
     font-size: 20px;
     font-family: Lexend;
     color: white;
-  }
+    }
 
     .game_img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
-  }
-
-  
-
-
-  }
+    }
   }
