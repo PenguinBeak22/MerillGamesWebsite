@@ -51,7 +51,8 @@ body {
     }
 
     body {
-      background-attachment: scroll; /
+      background-attachment: fixed;
+      overflow-x: hidden; 
     }
 
     h1 {
