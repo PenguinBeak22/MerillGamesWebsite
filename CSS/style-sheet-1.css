@@ -21,9 +21,7 @@ body {
     font-weight: semi-bold;
   }
   
-  .rounded-image {
-    border-radius: 15px;
-  }
+
   
 
  
@@ -63,7 +61,7 @@ body {
     
   
     h3 {
-      font-size: 30px;
+      font-size: 400px;
       font-family: Lexend;
       color: white;
     }
@@ -137,10 +135,14 @@ body {
       .game_img {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        width: 50%;
+        width: 100%;
         height: auto;
         display: block;
     
+        }
+
+        .rounded-image {
+          border-radius: 5px;
         }
     
     
@@ -244,6 +246,10 @@ body {
       height: auto;
       display: block;
   
+      }
+
+      .rounded-image {
+        border-radius: 10px;
       }
     }
   
@@ -352,5 +358,10 @@ body {
 
 
     
+    }
+
+
+    .rounded-image {
+      border-radius: 15px;
     }
   }
