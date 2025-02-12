@@ -26,11 +26,121 @@ body {
 
  
  
+  /* Small Mobile Styles */
+
+  @media (max-width: 400px) {
+    a {
+      font-size: 150px;
+      font-family: Lexend;
+      color: white;
+      margin: 0;
+      text-decoration: none;
+    }
+
+    body {
+      background-attachment: fixed;
+      overflow-x: hidden; 
+    }
+
+    h1 {
+      font-size: 50px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+  
+    h3 {
+      font-size: 150px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+
+    
+    p {
+      font-size: 10px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+    h4 {
+      font-size: 30px;
+      font-family: Lexend;
+      color: white;
+      margin-right: 50px; 
+    }
+
+    
+    h2 {
+      font-size: 5px;
+      font-family: Lexend;
+      color: white;
+    }
 
   
+    .headings-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .single-merill-image {
+      width: 150%;
+      height: auto;
+      margin-bottom: 80%;
+    }
 
-  /* Mobile Styles */
-  @media (max-width: 600px) {
+    .single-starcatch-image {
+        width: 150%;
+        height: auto;
+      }
+
+
+    .privacy-headings-container {
+        display: flex;
+        justify-content: left;
+        margin-left: 30px;
+        margin-bottom: 15px;
+        margin-top: 15px; 
+      }
+      
+    .privacy-mini-container {
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+        margin-bottom: 15px; 
+      }
+
+    .single-image {
+        margin-bottom: 75px;
+      }
+      
+    li {
+        font-size: 15px;
+        font-family: Lexend;
+        color: white;
+      }
+
+      .game_img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: auto;
+        display: block;
+    
+        }
+
+        .rounded-image {
+          border-radius: 5px;
+        }
+    
+    
+    }
+  
+  
+
+  /* Big Mobile Styles */
+  @media (min-width: 401px) and (max-width: 600px) {
     a {
       font-size: 200px;
       font-family: Lexend;
