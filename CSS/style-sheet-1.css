@@ -15,38 +15,7 @@ body {
     text-align: center;
   }
   
-  p {
-    font-size: 10px;
-    font-family: Lexend;
-    color: white;
-  }
-  
-  h4 {
-    font-size: 30px;
-    font-family: Lexend;
-    color: white;
-    margin-right: 50px; 
-  }
-  
-  h1 {
-    font-size: 100px;
-    font-family: Lexend;
-    color: white;
-  }
-  
-  h2 {
-    font-size: 20px;
-    font-family: Lexend;
-    color: white;
-  }
-  
-  h3 {
-    font-size: 40px;
-    font-family: Lexend;
-    color: white;
-    margin: 0; 
-  }
-  
+
   @font-face {
     font-family: "Lexend";
     src: url("/Fonts/Lexend-VariableFont_wght.ttf");
@@ -57,38 +26,7 @@ body {
     border-radius: 15px;
   }
   
-  .single-image {
-    margin-bottom: 200px;
-  }
-  
-  li {
-    font-size: 20px;
-    font-family: Lexend;
-    color: white;
-  }
-  
-  .headings-container {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    margin-bottom: 40px;
-  }
-  
-  .privacy-headings-container {
-    display: flex;
-    justify-content: left;
-    margin-left: 100px;
-    margin-bottom: 40px;
-    margin-top: 40px; 
-  }
-  
-  .privacy-mini-container {
-    display: flex;
-    justify-content: left;
-    margin-left: 50px;
-    margin-bottom: 40px; 
-  }
-  
+
   .game_img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
@@ -117,16 +55,17 @@ body {
     border-radius: 15px;
   }
   
-  a {
-    font-size: 40px;
-    font-family: Lexend;
-    color: white;
-    margin: 0;
-    text-decoration: none;
-  }
-  
+
   /* Mobile Styles */
   @media (max-width: 600px) {
+    a {
+      font-size: 10px;
+      font-family: Lexend;
+      color: white;
+      margin: 0;
+      text-decoration: none;
+    }
+
     h1 {
       font-size: 30px;
     }
@@ -134,6 +73,28 @@ body {
     h3 {
       font-size: 20px;
     }
+
+    
+    p {
+      font-size: 5px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+    h4 {
+      font-size: 10px;
+      font-family: Lexend;
+      color: white;
+      margin-right: 50px; 
+    }
+
+    
+    h2 {
+      font-size: 5px;
+      font-family: Lexend;
+      color: white;
+    }
+
   
     .center {
       width: 90%;
@@ -155,11 +116,69 @@ body {
         width: 100%;
         height: auto;
       }
+
+
+      .privacy-headings-container {
+        display: flex;
+        justify-content: left;
+        margin-left: 50px;
+        margin-bottom: 15px;
+        margin-top: 15px; 
+      }
+      
+      .privacy-mini-container {
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+        margin-bottom: 15px; 
+      }
+
+      .single-image {
+        margin-bottom: 75px;
+      }
+      
+      li {
+        font-size: 7px;
+        font-family: Lexend;
+        color: white;
+      }
+    
     }
   
   
   /* Tablet Styles */
   @media (min-width: 601px) and (max-width: 1024px) {
+    a {
+      font-size: 20px;
+      font-family: Lexend;
+      color: white;
+      margin: 0;
+      text-decoration: none;
+    }
+
+    p {
+      font-size: 8px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+    h4 {
+      font-size: 20px;
+      font-family: Lexend;
+      color: white;
+      margin-right: 50px; 
+    }
+
+    
+    h2 {
+      font-size: 10px;
+      font-family: Lexend;
+      color: white;
+    }
+
+
+
+
     h1 {
       font-size: 60px;
     }
@@ -187,24 +206,78 @@ body {
       flex-direction: row;
       gap: 80px;
     }
+
+    .privacy-headings-container {
+      display: flex;
+      justify-content: left;
+      margin-left: 80px;
+      margin-bottom: 30px;
+      margin-top: 30px; 
+    }
+    
+    .privacy-mini-container {
+      display: flex;
+      justify-content: left;
+      margin-left: 40px;
+      margin-bottom: 30px; 
+    }
+
+    .single-image {
+      margin-bottom: 150px;
+    }
+    
+    li {
+      font-size: 15px;
+      font-family: Lexend;
+      color: white;
+    }
+  
   }
   
   /* Desktop Styles */
   @media (min-width: 1025px) {
     h1 {
       font-size: 100px;
+      font-family: Lexend;
+      color: white;
     }
   
     h3 {
       font-size: 40px;
+      font-family: Lexend;
+      color: white; 
     }
+
+    p {
+      font-size: 10px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+    h4 {
+      font-size: 30px;
+      font-family: Lexend;
+      color: white;
+      margin-right: 50px; 
+    }
+
+    
+    h2 {
+      font-size: 20px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+
+    
   
     .center {
       width: 50%;
     }
   
     .headings-container {
-      flex-direction: row;
+      display:flex;
+      justify-content: center; 
       gap: 150px;
     }
   
@@ -219,6 +292,42 @@ body {
       height: 270px;
       margin-bottom: 200px;
     }
+
+    a {
+      font-size: 40px;
+      font-family: Lexend;
+      color: white;
+      margin: 0;
+      text-decoration: none;
+    }
+
+      
+  
+  .privacy-headings-container {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px; 
+  }
+  
+  .privacy-mini-container {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-bottom: 40px; 
+  }
+
+  .single-image {
+    margin-bottom: 200px;
+  }
+  
+  li {
+    font-size: 20px;
+    font-family: Lexend;
+    color: white;
+  }
+
   
 
 
