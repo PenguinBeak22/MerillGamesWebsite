@@ -134,7 +134,7 @@ body {
       .game_img {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        width: 10%;
+        width: 5%;
         height: auto;
         display: block;
     
@@ -237,7 +237,7 @@ body {
     .game_img {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-      width: 20%;
+      width: 10%;
       height: auto;
       display: block;
   
@@ -343,8 +343,11 @@ body {
     .game_img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    width: 40%;
+    width: 30%;
     height: auto;
     display: block;
+
+
+    
     }
   }
