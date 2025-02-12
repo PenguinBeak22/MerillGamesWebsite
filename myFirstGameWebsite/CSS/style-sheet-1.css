@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(to right, #24565b, #191966);
+}
+
+
+.center {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 10px;
+    font-family: Lexend;
+    color: white;
+    
+}
+
+
+h4{
+    font-size: 30px;
+    font-family: Lexend;
+    color: white;
+    margin-right: 50; 
+}
+
+h1 {
+    font-size: 100px;
+    font-family: Lexend;
+    color: white;
+}
+
+
+h2 {
+    font-size: 20px;
+    font-family: Lexend;
+    color: white;
+}
+
+
+h3{
+    font-size: 40px;
+    font-family: Lexend;
+    color: white;
+    margin: 0; 
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: url("/Fonts/Lexend-VariableFont_wght.ttf");
+    font-weight: semi-bold;
+    
+}
+
+.rounded-image {
+  border-radius: 15px; /* Adjust the value as needed */
+}
+
+.single-image {
+  margin-bottom: 200px; /* Adjust the value as needed */
+}
+
+li {
+    font-size: 20px;
+    font-family: Lexend;
+    color: white;
+    
+}
+
+.headings-container {
+    display: flex;
+    justify-content: center; /* Centers the headings horizontally */
+    gap: 150px; /* Adds space between the headings */
+    margin-bottom: 40px; 
+}
+
+.privacy-headings-container {
+    display: flex;
+    justify-content: left; /* Centers the headings horizontally */
+    margin-left: 100px;
+    margin-bottom: 40px; 
+    margin-top: 40px; 
+}
+
+.privacy-mini-container {
+    display: flex;
+    justify-content: left; /* Centers the headings horizontally */
+    margin-left: 50px;
+    margin-bottom: 40px; 
+}
+
+
+.game_img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: auto;
+    display: block;
+
+    
+}
+
+.game_img:hover {
+    transform: scale(1.20); /* Slight zoom effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 1.7); /* Stronger shadow on hover */
+}
+
+h3:hover {
+    transform: scale(1.20); 
+    
+}
+
+.game_image_container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  border-radius: 15px; /* Optional: applies the same border radius to the overlay */
+}
+
+a {
+    font-size: 40px;
+    font-family: Lexend;
+    color: white;
+    margin: 0; 
+    text-decoration: none
+  
+}
+
