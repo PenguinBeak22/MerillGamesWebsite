@@ -26,11 +26,10 @@ body {
 
  
  
-  /* Small Mobile Styles */
+  /* Medium Mobile Styles */
 
   @media (max-width: 400px) {
     a {
-      font-size: 15px;
       font-family: Lexend;
       color: white;
       margin: 0;
@@ -50,7 +49,7 @@ body {
     
   
     h3 {
-      font-size: 15px;
+      font-size: 100%;
       font-family: Lexend;
       color: white;
     }
@@ -85,14 +84,14 @@ body {
     }
   
     .single-merill-image {
-      width: 50%;
-      height: auto;
-      margin-bottom: 80%;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10%;
     }
 
     .single-starcatch-image {
-        width: 50%;
-        height: auto;
+        width: 100%;
+        height: 100%;
       }
 
 
@@ -124,8 +123,8 @@ body {
       .game_img {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        width: 50%;
-        height: auto;
+        width: 80%;
+        height: 80%;
         display: flex;
     
         }
@@ -142,7 +141,6 @@ body {
   /* Big Mobile Styles */
   @media (min-width: 401px) and (max-width: 600px) {
     a {
-      font-size: 200px;
       font-family: Lexend;
       color: white;
       margin: 0;
@@ -162,7 +160,7 @@ body {
     
   
     h3 {
-      font-size: 200px;
+      font-size: 120%;
       font-family: Lexend;
       color: white;
     }
@@ -197,14 +195,14 @@ body {
     }
   
     .single-merill-image {
-      width: 150%;
-      height: auto;
-      margin-bottom: 80%;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 15%;
     }
 
     .single-starcatch-image {
-        width: 150%;
-        height: auto;
+        width: 50%;
+        height: 50%;
       }
 
 
@@ -224,7 +222,7 @@ body {
       }
 
     .single-image {
-        margin-bottom: 75px;
+        margin-bottom: 10%;
       }
       
     li {
@@ -236,7 +234,7 @@ body {
       .game_img {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        width: 100%;
+        width: 50%;
         height: auto;
         display: block;
     
@@ -253,12 +251,14 @@ body {
   /* Tablet Styles */
   @media (min-width: 601px) and (max-width: 1024px) {
 
+    
     body {
-      background-attachment: scroll; /* Ensures the background stays in place during scroll */
+      background-attachment: fixed;
+      overflow-x: hidden; 
     }
+
     
     a {
-      font-size: 20px;
       font-family: Lexend;
       color: white;
       margin: 0;
@@ -289,10 +289,14 @@ body {
 
     h1 {
       font-size: 60px;
+      font-family: Lexend;
+      color: white;
     }
   
     h3 {
       font-size: 30px;
+      font-family: Lexend;
+      color: white;
     }
   
     .center {
@@ -302,12 +306,12 @@ body {
     .single-merill-image {
       width: 70%;
       height: auto;
-      margin-bottom: 80%;
+      margin-bottom: 15%;
     }
 
     .single-starcatch-image {
       width: 70%;
-      height: auto;
+      height: 70%;
     }
   
     .headings-container {
@@ -343,8 +347,8 @@ body {
     .game_img {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-      width: 10%;
-      height: auto;
+      width: 50%;
+      height: 50%;
       display: block;
   
       }
@@ -353,9 +357,17 @@ body {
         border-radius: 10px;
       }
     }
-  
-  /* Desktop Styles */
-  @media (min-width: 1020px) {
+
+  /* Small Desktop Styles */
+  @media (min-width: 1025px) and (max-width: 1599px){
+
+
+    
+    body {
+      background-attachment: fixed;
+      overflow-x: hidden; 
+    }
+
 
 
     h1 {
@@ -365,7 +377,7 @@ body {
     }
   
     h3 {
-      font-size: 40px;
+      font-size: 200%;
       font-family: Lexend;
       color: white; 
     }
@@ -404,19 +416,18 @@ body {
     }
   
     .single-merill-image {
-      width: 1600px;
-      height: 900px;
-      margin-bottom: 200px;
+      width: 80%;
+      height: 80%;
+      margin-bottom: 20%;
     }
 
     .single-starcatch-image {
-      width: 480px;
-      height: 270px;
-      margin-bottom: 200px;
+      width: 90%;
+      height: 90%;
+      margin-bottom: 20%;
     }
 
     a {
-      font-size: 40px;
       font-family: Lexend;
       color: white;
       margin: 0;
@@ -453,9 +464,267 @@ body {
     .game_img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    width: 30%;
+    width: 50%;
     height: auto;
     display: block;
+
+
+    
+    }
+
+     
+  .game_img:hover {
+    transform: scale(1.20);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 1.7);
+  }
+  
+  h3:hover {
+    transform: scale(1.20);
+  }
+  
+
+
+    .rounded-image {
+      border-radius: 15px;
+    }
+  }
+
+    /* Medium Desktop Styles */
+    @media (min-width: 1600px) and (max-width: 2199px) {
+
+
+      
+    body {
+      background-attachment: fixed;
+      overflow-x: hidden; 
+    }
+
+
+
+      h1 {
+        font-size: 100px;
+        font-family: Lexend;
+        color: white;
+      }
+    
+      h3 {
+        font-size: 250%;
+        font-family: Lexend;
+        color: white; 
+      }
+  
+      p {
+        font-size: 10px;
+        font-family: Lexend;
+        color: white;
+      }
+      
+      h4 {
+        font-size: 30px;
+        font-family: Lexend;
+        color: white;
+        margin-right: 50px; 
+      }
+  
+      
+      h2 {
+        font-size: 20px;
+        font-family: Lexend;
+        color: white;
+      }
+      
+  
+      
+    
+      .center {
+        width: 50%;
+      }
+    
+      .headings-container {
+        display:flex;
+        justify-content: center; 
+        gap: 150px;
+      }
+    
+      .single-merill-image {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50%;
+      }
+  
+      .single-starcatch-image {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50%;
+      }
+  
+      a {
+        font-family: Lexend;
+        color: white;
+        margin: 0;
+        text-decoration: none;
+      }
+  
+        
+    
+      .privacy-headings-container {
+      display: flex;
+      justify-content: left;
+      margin-left: 100px;
+      margin-bottom: 40px;
+      margin-top: 40px; 
+      }
+    
+      .privacy-mini-container {
+      display: flex;
+      justify-content: left;
+      margin-left: 50px;
+      margin-bottom: 40px; 
+      }
+  
+    
+    
+      li {
+      font-size: 20px;
+      font-family: Lexend;
+      color: white;
+      }
+  
+      .game_img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      width: 30%;
+      height: auto;
+      display: block;
+  
+  
+      
+      }
+  
+       
+    .game_img:hover {
+      transform: scale(1.20);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 1.7);
+    }
+    
+    h3:hover {
+      transform: scale(1.20);
+    }
+    
+  
+  
+      .rounded-image {
+        border-radius: 15px;
+      }
+    }
+  
+
+  
+  /* Big Desktop Styles */
+  @media (min-width: 2200px) {
+
+
+    
+    body {
+      background-attachment: fixed;
+      overflow-x: hidden; 
+    }
+
+
+
+    h1 {
+      font-size: 100px;
+      font-family: Lexend;
+      color: white;
+    }
+  
+    h3 {
+      font-size: 250%;
+      font-family: Lexend;
+      color: white; 
+    }
+
+    p {
+      font-size: 10px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+    h4 {
+      font-size: 30px;
+      font-family: Lexend;
+      color: white;
+      margin-right: 50px; 
+    }
+
+    
+    h2 {
+      font-size: 20px;
+      font-family: Lexend;
+      color: white;
+    }
+    
+
+    
+  
+    .center {
+      width: 50%;
+    }
+  
+    .headings-container {
+      display:flex;
+      justify-content: center; 
+      gap: 150px;
+    }
+  
+    .single-merill-image {
+      width: 80%;
+      height: 80%;
+      margin-bottom: 20%;
+    }
+
+    .single-starcatch-image {
+      width: 80%;
+      height: 80%;
+      margin-bottom: 20%;
+    }
+
+    a {
+      font-family: Lexend;
+      color: white;
+      margin: 0;
+      text-decoration: none;
+    }
+
+      
+  
+    .privacy-headings-container {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px; 
+    }
+  
+    .privacy-mini-container {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-bottom: 40px; 
+    }
+
+    li {
+    font-size: 20px;
+    font-family: Lexend;
+    color: white;
+    }
+
+    .game_img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    width: 50%;
+    height: auto;
+    display: flex;
 
 
     
