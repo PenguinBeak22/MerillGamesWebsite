@@ -26,7 +26,7 @@ body {
 
  
  
-  /* Medium Mobile Styles */
+  /* Small Mobile Styles */
 
   @media (max-width: 400px) {
     a {
@@ -42,7 +42,7 @@ body {
     }
 
     h1 {
-      font-size: 50px;
+      font-size: 200%;
       font-family: Lexend;
       color: white;
     }
@@ -57,13 +57,13 @@ body {
 
     
     p {
-      font-size: 20px;
+      font-size: 50%;
       font-family: Lexend;
       color: white;
     }
     
     h4 {
-      font-size: 30px;
+      font-size: 150%;
       font-family: Lexend;
       color: white;
       margin-right: 50px; 
@@ -71,7 +71,7 @@ body {
 
     
     h2 {
-      font-size: 5px;
+      font-size: 80%;
       font-family: Lexend;
       color: white;
     }
@@ -98,9 +98,9 @@ body {
     .privacy-headings-container {
         display: flex;
         justify-content: left;
-        margin-left: 30px;
-        margin-bottom: 15px;
-        margin-top: 15px; 
+        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%; 
       }
       
     .privacy-mini-container {
@@ -110,12 +110,9 @@ body {
         margin-bottom: 15px; 
       }
 
-    .single-image {
-        margin-bottom: 75px;
-      }
       
     li {
-        font-size: 15px;
+        font-size: 80%;
         font-family: Lexend;
         color: white;
       }
@@ -153,7 +150,7 @@ body {
     }
 
     h1 {
-      font-size: 50px;
+      font-size: 200%;
       font-family: Lexend;
       color: white;
     }
@@ -168,13 +165,13 @@ body {
 
     
     p {
-      font-size: 10px;
+      font-size: 100%;
       font-family: Lexend;
       color: white;
     }
     
     h4 {
-      font-size: 30px;
+      font-size: 150%;
       font-family: Lexend;
       color: white;
       margin-right: 50px; 
@@ -182,7 +179,7 @@ body {
 
     
     h2 {
-      font-size: 5px;
+      font-size: 100%;
       font-family: Lexend;
       color: white;
     }
@@ -209,9 +206,9 @@ body {
     .privacy-headings-container {
         display: flex;
         justify-content: left;
-        margin-left: 30px;
-        margin-bottom: 15px;
-        margin-top: 15px; 
+        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%; 
       }
       
     .privacy-mini-container {
@@ -226,7 +223,7 @@ body {
       }
       
     li {
-        font-size: 15px;
+        font-size: 100%;
         font-family: Lexend;
         color: white;
       }
@@ -266,13 +263,13 @@ body {
     }
 
     p {
-      font-size: 8px;
+      font-size: 100%;
       font-family: Lexend;
       color: white;
     }
     
     h4 {
-      font-size: 20px;
+      font-size: 200%;
       font-family: Lexend;
       color: white;
       margin-right: 50px; 
@@ -280,7 +277,7 @@ body {
 
     
     h2 {
-      font-size: 10px;
+      font-size: 100%;
       font-family: Lexend;
       color: white;
     }
@@ -288,13 +285,13 @@ body {
 
 
     h1 {
-      font-size: 60px;
+      font-size: 200%;
       font-family: Lexend;
       color: white;
     }
   
     h3 {
-      font-size: 30px;
+      font-size: 100%;
       font-family: Lexend;
       color: white;
     }
@@ -322,9 +319,9 @@ body {
     .privacy-headings-container {
       display: flex;
       justify-content: left;
-      margin-left: 80px;
-      margin-bottom: 30px;
-      margin-top: 30px; 
+      margin-left: 5%;
+      margin-bottom: 5%;
+      margin-top: 5%; 
     }
     
     .privacy-mini-container {
@@ -339,7 +336,7 @@ body {
     }
     
     li {
-      font-size: 15px;
+      font-size: 100%;
       font-family: Lexend;
       color: white;
     }
@@ -371,7 +368,7 @@ body {
 
 
     h1 {
-      font-size: 100px;
+      font-size: 300%;
       font-family: Lexend;
       color: white;
     }
@@ -389,7 +386,7 @@ body {
     }
     
     h4 {
-      font-size: 30px;
+      font-size: 200%;
       font-family: Lexend;
       color: white;
       margin-right: 50px; 
@@ -397,7 +394,7 @@ body {
 
     
     h2 {
-      font-size: 20px;
+      font-size: 100%;
       font-family: Lexend;
       color: white;
     }
@@ -439,9 +436,9 @@ body {
     .privacy-headings-container {
     display: flex;
     justify-content: left;
-    margin-left: 100px;
-    margin-bottom: 40px;
-    margin-top: 40px; 
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%; 
     }
   
     .privacy-mini-container {
@@ -456,7 +453,7 @@ body {
     }
   
     li {
-    font-size: 20px;
+    font-size: 100%;
     font-family: Lexend;
     color: white;
     }
