@@ -1,7 +1,7 @@
 
 
 body {
-  background: linear-gradient(to right, #24565b, #191966);
+  background: linear-gradient(to right, #4e205f, #173449);
   background-size: cover; /* Makes the background cover the entire viewport */
   background-repeat: no-repeat; /* Prevents the background from repeating */
 }
@@ -49,7 +49,7 @@ body {
     
   
     h3 {
-      font-size: 100%;
+      font-size: 200%;
       font-family: Lexend;
       color: white;
     }
@@ -71,29 +71,31 @@ body {
 
     
     h2 {
-      font-size: 80%;
+      font-size: 40%;
       font-family: Lexend;
       color: white;
     }
 
   
-    .headings-container {
-      flex-direction: column;
+   
+    .bottom-container {
+      display: flex;
+      height: 10px;
+      justify-content: center;
       align-items: center;
-      gap: 20px;
+      padding: 10% 5%;
+      background: rgba(255, 255, 255, 0.733);
+      color: linear-gradient(to right, #3e4780, #1111b088);
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
-  
     .single-merill-image {
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: 80%;
       margin-bottom: 10%;
     }
-
-    .single-starcatch-image {
-        width: 100%;
-        height: 100%;
-      }
-
 
     .privacy-headings-container {
         display: flex;
@@ -102,14 +104,7 @@ body {
         margin-bottom: 5%;
         margin-top: 5%; 
       }
-      
-    .privacy-mini-container {
-        display: flex;
-        justify-content: left;
-        margin-left: 20px;
-        margin-bottom: 15px; 
-      }
-
+    
       
     li {
         font-size: 80%;
@@ -120,8 +115,8 @@ body {
       .game_img {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        width: 80%;
-        height: 80%;
+        width: 50%;
+        height: 50%;
         display: flex;
     
         }
@@ -129,9 +124,85 @@ body {
         .rounded-image {
           border-radius: 5px;
         }
-    
+
+            
+      .top-container {
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 30%;
+        background: linear-gradient(to right, #1f2a7145, #2c2c9f);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 10%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 50%;
+    }
+
+    .top-logo{
+      display: flex;
+      width: 50%;
+      height: 50%;
     
     }
+
+    .top-name{
+      font-size: 20%;
+      display: flex;
+      margin-right: 30%;
+    }
+
+    .nav-links {
+      align-items: center;
+      font-size: 50%;
+      display: flex;  /* Flexbox makes the items align in a row */
+      gap: 20px;  /* Adds space between the links */
+    }
+
+
+    .logo-container{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background: linear-gradient(to bottom, #00000095, #00000043);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 50%;
+        margin-left: 5%;
+        margin-right: 5%;
+        opacity: 100%;
+    }
+
+    
+    .game-container{
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      padding: 20px 20px;
+      background: linear-gradient(to bottom, #400b96ea, #762154);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 60%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+      opacity: 100%;
+  }
+
+  .bottom-container h2 {
+
+    font-size: 60%;
+    font-family: Lexend;
+    color: rgba(19, 46, 199, 0.764);
+  }
+
+
+  
+    
+    
+  }
   
   
 
@@ -185,10 +256,19 @@ body {
     }
 
   
-    .headings-container {
-      flex-direction: column;
+
+    .bottom-container {
+      display: flex;
+      height: 50px;
+      justify-content: center;
       align-items: center;
-      gap: 20px;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.733);
+      color: linear-gradient(to right, #3e4780, #1111b088);
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
   
     .single-merill-image {
@@ -240,6 +320,80 @@ body {
         .rounded-image {
           border-radius: 5px;
         }
+
+      
+      .top-container {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 15%;
+        background: linear-gradient(to right, #1f2a7145, #2c2c9f);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 2%;
+        font-size: 80%;
+    }
+
+    .top-logo{
+      display: flex;
+      width: 80%;
+      height: 80%;
+    
+    }
+
+    .top-name{
+      font-size: 100%;
+      display: flex;
+      margin-right: 30%;
+    }
+
+    .nav-links {
+      align-items: center;
+      font-size: 30;
+      display: flex;  /* Flexbox makes the items align in a row */
+      gap: 20px;  /* Adds space between the links */
+    }
+
+
+    .logo-container{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background: linear-gradient(to bottom, #00000095, #00000043);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        opacity: 100%;
+    }
+
+    
+    .game-container{
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      padding: 20px 20px;
+      background: linear-gradient(to bottom, #400b96ea, #762154);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+      opacity: 100%;
+  }
+
+  .bottom-container h2 {
+
+    font-size: 170%;
+    font-family: Lexend;
+    color: rgba(19, 46, 199, 0.764);
+  }
+
     
     
     }
@@ -277,12 +431,17 @@ body {
 
     
     h2 {
-      font-size: 100%;
+      font-size: 150%;
       font-family: Lexend;
       color: white;
     }
 
+    .bottom-container h2 {
 
+      font-size: 170%;
+      font-family: Lexend;
+      color: rgba(19, 46, 199, 0.764);
+    }
 
     h1 {
       font-size: 200%;
@@ -303,17 +462,25 @@ body {
     .single-merill-image {
       width: 70%;
       height: auto;
-      margin-bottom: 15%;
+      margin-bottom: 5%;
+      opacity: 100%;
+      
+
     }
 
-    .single-starcatch-image {
-      width: 70%;
-      height: 70%;
-    }
-  
-    .headings-container {
-      flex-direction: row;
-      gap: 80px;
+
+    .bottom-container {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.733);
+      color: linear-gradient(to right, #3e4780, #1111b088);
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
     .privacy-headings-container {
@@ -323,17 +490,8 @@ body {
       margin-bottom: 5%;
       margin-top: 5%; 
     }
-    
-    .privacy-mini-container {
-      display: flex;
-      justify-content: left;
-      margin-left: 40px;
-      margin-bottom: 30px; 
-    }
+  
 
-    .single-image {
-      margin-bottom: 150px;
-    }
     
     li {
       font-size: 100%;
@@ -344,16 +502,84 @@ body {
     .game_img {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-      width: 50%;
-      height: 50%;
-      display: block;
+      width: 40%;
+      height: 40%;
+      display: flex;
+     
   
       }
 
       .rounded-image {
         border-radius: 10px;
       }
+
+      .top-container {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 20%;
+        background: linear-gradient(to right, #1f2a7145, #2c2c9f);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
+
+    .top-logo{
+      display: flex;
+      width: 100%;
+      height: 100%;
+    
+    }
+
+    .top-name{
+      font-size: 150%;
+      display: flex;
+      margin-right: 30%;
+    }
+
+    .nav-links {
+      align-items: center;
+      font-size: 120%;
+      display: flex;  /* Flexbox makes the items align in a row */
+      gap: 100px;  /* Adds space between the links */
+    }
+
+
+    .logo-container{
+        display: flex;
+        align-items: center;
+        padding: 2%;
+        background: linear-gradient(to bottom, #00000095, #00000043);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        opacity: 100%;
+    }
+
+    
+    .game-container{
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      padding: 10% 10%;
+      background: linear-gradient(to bottom, #400b96ea, #762154);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10%;
+      opacity: 100%;
+  }
+  }
+
+
+  
 
   /* Small Desktop Styles */
   @media (min-width: 1025px) and (max-width: 1599px){
@@ -363,6 +589,28 @@ body {
     body {
       background-attachment: fixed;
       overflow-x: hidden; 
+    }
+
+    .bottom-container h2 {
+
+      font-size: 170%;
+      font-family: Lexend;
+      color: rgba(19, 46, 199, 0.764);
+    }
+
+    
+    .bottom-container {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.733);
+      color: linear-gradient(to right, #3e4780, #1111b088);
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
 
 
@@ -406,23 +654,14 @@ body {
       width: 50%;
     }
   
-    .headings-container {
-      display:flex;
-      justify-content: center; 
-      gap: 150px;
-    }
-  
+
     .single-merill-image {
       width: 80%;
       height: 80%;
       margin-bottom: 20%;
+      
     }
 
-    .single-starcatch-image {
-      width: 90%;
-      height: 90%;
-      margin-bottom: 20%;
-    }
 
     a {
       font-family: Lexend;
@@ -440,17 +679,7 @@ body {
     margin-bottom: 5%;
     margin-top: 5%; 
     }
-  
-    .privacy-mini-container {
-    display: flex;
-    justify-content: left;
-    margin-left: 50px;
-    margin-bottom: 40px; 
-    }
 
-    .single-image {
-    margin-bottom: 200px;
-    }
   
     li {
     font-size: 100%;
@@ -484,7 +713,75 @@ body {
     .rounded-image {
       border-radius: 15px;
     }
+
+
+    .top-container {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      padding: 2% 20%;
+      background: linear-gradient(to right, #1f2a7145, #2c2c9f);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
   }
+
+  .top-logo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+  }
+
+  .top-name{
+    font-size: 100%;
+    display: flex;
+    margin-right: 30%;
+  }
+
+  .nav-links {
+    align-items: center;
+    font-size: 80%;
+    display: flex;  /* Flexbox makes the items align in a row */
+    gap: 100px;  /* Adds space between the links */
+  }
+
+
+  .logo-container{
+      display: flex;
+      align-items: center;
+      padding: 2%;
+      background: linear-gradient(to bottom, #00000095, #00000043);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      opacity: 100%;
+  }
+
+  
+  .game-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10% 10%;
+    background: linear-gradient(to bottom, #400b96ea, #762154);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    opacity: 100%;
+}
+}
+
+
+  
 
     /* Medium Desktop Styles */
     @media (min-width: 1600px) and (max-width: 2199px) {
@@ -537,11 +834,20 @@ body {
         width: 50%;
       }
     
-      .headings-container {
-        display:flex;
-        justify-content: center; 
-        gap: 150px;
-      }
+     
+    .bottom-container {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.733);
+      color: linear-gradient(to right, #3e4780, #1111b088);
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
     
       .single-merill-image {
         width: 100%;
@@ -549,11 +855,6 @@ body {
         margin-bottom: 50%;
       }
   
-      .single-starcatch-image {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 50%;
-      }
   
       a {
         font-family: Lexend;
@@ -571,13 +872,7 @@ body {
       margin-bottom: 40px;
       margin-top: 40px; 
       }
-    
-      .privacy-mini-container {
-      display: flex;
-      justify-content: left;
-      margin-left: 50px;
-      margin-bottom: 40px; 
-      }
+
   
     
     
@@ -613,7 +908,84 @@ body {
       .rounded-image {
         border-radius: 15px;
       }
+
+    .top-container {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      padding: 2% 20%;
+      background: linear-gradient(to right, #1f2a7145, #2c2c9f);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+  .top-logo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+  }
+
+  .top-name{
+    font-size: 100%;
+    display: flex;
+    margin-right: 30%;
+  }
+
+  .nav-links {
+    align-items: center;
+    font-size: 80%;
+    display: flex;  /* Flexbox makes the items align in a row */
+    gap: 100px;  /* Adds space between the links */
+  }
+
+
+  .logo-container{
+      display: flex;
+      align-items: center;
+      padding: 2%;
+      background: linear-gradient(to bottom, #00000095, #00000043);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      opacity: 100%;
+  }
+
+  
+  .game-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10% 10%;
+    background: linear-gradient(to bottom, #400b96ea, #762154);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    opacity: 100%;
+
+
+
+
     }
+
+
+    
+    .bottom-container h2 {
+
+      font-size: 170%;
+      font-family: Lexend;
+      color: rgba(19, 46, 199, 0.764);
+    }
+  }
   
 
   
@@ -668,10 +1040,18 @@ body {
       width: 50%;
     }
   
-    .headings-container {
-      display:flex;
-      justify-content: center; 
-      gap: 150px;
+    .bottom-container {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.733);
+      color: linear-gradient(to right, #3e4780, #1111b088);
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
     }
   
     .single-merill-image {
@@ -680,11 +1060,6 @@ body {
       margin-bottom: 20%;
     }
 
-    .single-starcatch-image {
-      width: 80%;
-      height: 80%;
-      margin-bottom: 20%;
-    }
 
     a {
       font-family: Lexend;
@@ -703,12 +1078,6 @@ body {
     margin-top: 40px; 
     }
   
-    .privacy-mini-container {
-    display: flex;
-    justify-content: left;
-    margin-left: 50px;
-    margin-bottom: 40px; 
-    }
 
     li {
     font-size: 20px;
@@ -727,6 +1096,7 @@ body {
     
     }
 
+
      
   .game_img:hover {
     transform: scale(1.20);
@@ -742,4 +1112,83 @@ body {
     .rounded-image {
       border-radius: 15px;
     }
+
+    
+    .top-container {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-items: center;
+      padding: 2% 20%;
+      background: linear-gradient(to right, #1f2a7145, #2c2c9f);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
   }
+
+  .top-logo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+  }
+
+  .top-name{
+    font-size: 100%;
+    display: flex;
+    margin-right: 30%;
+  }
+
+  .nav-links {
+    align-items: center;
+    font-size: 80%;
+    display: flex;  /* Flexbox makes the items align in a row */
+    gap: 100px;  /* Adds space between the links */
+  }
+
+
+  .logo-container{
+      display: flex;
+      align-items: center;
+      padding: 2%;
+      background: linear-gradient(to bottom, #00000095, #00000043);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-right: 5%;
+      opacity: 100%;
+  }
+
+  
+  .game-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10% 10%;
+    background: linear-gradient(to bottom, #400b96ea, #762154);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    opacity: 100%;
+
+
+
+}
+
+
+
+.bottom-container h2 {
+
+  font-size: 170%;
+  font-family: Lexend;
+  color: rgba(19, 46, 199, 0.764);
+}
+  }
+
+
