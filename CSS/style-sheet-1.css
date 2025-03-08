@@ -1,7 +1,7 @@
 
 
 body {
-  background: linear-gradient(to right, #4e205f, #173449);
+  background: linear-gradient(to right, #393bcb, #8940ab);
   background-size: cover; /* Makes the background cover the entire viewport */
   background-repeat: no-repeat; /* Prevents the background from repeating */
   height: 100%;
@@ -37,7 +37,6 @@ html {
     font-family: "Lexend";
     src: url("/Fonts/Lexend-VariableFont_wght.ttf");
     font-weight: semi-bold;
-    f
 }
   
 
@@ -49,6 +48,18 @@ a {
       
     }
 
+#index-atext {
+
+  
+    font-family: Lexend;
+    color: rgb(41, 17, 221);
+    margin: 0;
+    text-decoration: none;
+    
+  
+
+}
+
 
   .top-container {
         display: flex;
@@ -57,7 +68,7 @@ a {
         align-items: center;
         width: 80%;
         padding: 2% 10%;
-        background: linear-gradient(to right, #1f2a7145, #2c2c9f);
+        background:rgb(255, 255, 255);
         color: white;
         border-radius: 10px;
         font-size: 100%;
@@ -81,7 +92,7 @@ a {
 h3 {
       font-size: 120%;
       font-family: Lexend;
-      color: white;
+      color: rgb(41, 17, 221);
     }
   
 
@@ -98,6 +109,7 @@ h3 {
  .single-merill-image {
       width: 100%;
       height: auto;
+      
     }
 
  .logo-container{
@@ -106,7 +118,6 @@ h3 {
         width: 100%;
         height: auto;
         padding: 2%, 2%;
-        background: linear-gradient(to bottom, #00000095, #00000043);
         color: white;
         border-radius: 2%;
         opacity: 100%;
@@ -152,7 +163,7 @@ h3 {
           align-items: center;
           justify-items: center;
           padding: 10% 10%;
-          background: linear-gradient(to bottom, #400b96ea, #762154);
+
           color: white;
           border-radius: 10px;
        
