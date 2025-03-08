@@ -168,7 +168,7 @@ h3 {
 
 
     h1 {
-      font-size: 100px;
+      font-size: 300%;
       font-family: Lexend;
       color: white;
     }
@@ -176,21 +176,20 @@ h3 {
 
 
     p {
-      font-size: 10px;
+      font-size: 200%;
       font-family: Lexend;
       color: white;
     }
     
     h4 {
-      font-size: 30px;
+      font-size: 200%;
       font-family: Lexend;
       color: white;
-      margin-right: 50px; 
     }
 
     
     h2 {
-      font-size: 20px;
+      font-size: 130%;
       font-family: Lexend;
       color: white;
     }
@@ -221,14 +220,20 @@ h3 {
     .privacy-headings-container {
     display: flex;
     justify-content: left;
-    margin-left: 100px;
-    margin-bottom: 40px;
-    margin-top: 40px; 
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 10%; 
     }
+
+    .effective-date-container {
+      justify-content: left;
+      margin-bottom: 10%;
+      margin-top: 10%; 
+      }
   
 
     li {
-    font-size: 20px;
+    font-size: 150%;
     font-family: Lexend;
     color: white;
     }
