@@ -8,7 +8,8 @@ body {
   width: 80%;
   background-attachment: fixed;
   overflow-x: hidden; 
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -36,6 +37,7 @@ html {
     font-family: "Lexend";
     src: url("/Fonts/Lexend-VariableFont_wght.ttf");
     font-weight: semi-bold;
+    f
 }
   
 
@@ -44,6 +46,7 @@ a {
       color: white;
       margin: 0;
       text-decoration: none;
+      
     }
 
 
@@ -52,13 +55,13 @@ a {
         height: 8%;
         justify-content: space-between;
         align-items: center;
-    width: 70%;
-    padding: 2% 10%;
+        width: 80%;
+        padding: 2% 10%;
         background: linear-gradient(to right, #1f2a7145, #2c2c9f);
         color: white;
         border-radius: 10px;
-    font-size: 100%;
-      margin: 10%;
+        font-size: 100%;
+        margin: 10%;
     }
 
 .top-logo{
@@ -76,7 +79,7 @@ a {
     }
 
 h3 {
-      font-size: 100%;
+      font-size: 120%;
       font-family: Lexend;
       color: white;
     }
@@ -100,8 +103,8 @@ h3 {
  .logo-container{
         display: flex;
         align-items: center;
-        width: 80%;
-        height: 40%;
+        width: 100%;
+        height: auto;
         padding: 2%, 2%;
         background: linear-gradient(to bottom, #00000095, #00000043);
         color: white;
@@ -114,7 +117,53 @@ h3 {
           border-radius: 5px;
         }
 
-
+  .game_img {
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+          width: 50%;
+          height: auto;
+          display: flex;
+      
+      
+          
+        }
+      
+      
+           
+  .game_img:hover {
+          transform: scale(1.20);
+          box-shadow: 0 6px 15px rgba(0, 0, 0, 1.7);
+        }
+        
+        h3:hover {
+          transform: scale(1.20);
+        }
+      
+      
+      
+      
+      
+      
+        
+        .game-container{
+          display: flex;
+          width: 80%;
+          height: auto;
+          align-items: center;
+          justify-items: center;
+          padding: 10% 10%;
+          background: linear-gradient(to bottom, #400b96ea, #762154);
+          color: white;
+          border-radius: 10px;
+       
+          opacity: 100%;
+          margin-bottom: 10%;
+      
+      
+      
+      }
+      
+      
 
 
 
@@ -184,52 +233,7 @@ h3 {
     color: white;
     }
 
-    .game_img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    width: 50%;
-    height: auto;
-    display: flex;
-
-
-    
-    }
-
-
-     
-  .game_img:hover {
-    transform: scale(1.20);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 1.7);
-  }
-  
-  h3:hover {
-    transform: scale(1.20);
-  }
-
-
-
-
-
-
-  
-  .game-container{
-    display: flex;
-    width: 60%;
-    height: 20%;
-    align-items: center;
-    justify-items: center;
-    padding: 10% 10%;
-    background: linear-gradient(to bottom, #400b96ea, #762154);
-    color: white;
-    border-radius: 10px;
- 
-    opacity: 100%;
-
-
-
-}
-
-
+   
 
 .bottom-container h2 {
 
