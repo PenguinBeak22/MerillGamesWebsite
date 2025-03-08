@@ -48,7 +48,7 @@ a {
       
     }
 
-#index-atext {
+.index-atext {
 
   
     font-family: Lexend;
@@ -108,6 +108,7 @@ h3 {
 
  .single-merill-image {
       width: 100%;
+      height: 20%;
       height: auto;
       
     }
