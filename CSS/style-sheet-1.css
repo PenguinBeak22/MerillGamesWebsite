@@ -4,1000 +4,117 @@ body {
   background: linear-gradient(to right, #4e205f, #173449);
   background-size: cover; /* Makes the background cover the entire viewport */
   background-repeat: no-repeat; /* Prevents the background from repeating */
+  height: 100%;
+  width: 80%;
+  background-attachment: fixed;
+  overflow-x: hidden; 
+  margin: 10%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
 }
 
-  .center {
-    display: block;
+html {
+  align-items: center;
+  width: 100%;
+  height: 100%
+  
+}
+
+.center {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     text-align: center;
-  }
+}
   
 
-  @font-face {
+@font-face {
     font-family: "Lexend";
     src: url("/Fonts/Lexend-VariableFont_wght.ttf");
     font-weight: semi-bold;
-  }
+}
   
 
+a {
+      font-family: Lexend;
+      color: white;
+      margin: 0;
+      text-decoration: none;
+    }
+
+
+  .top-container {
+        display: flex;
+        height: 8%;
+        justify-content: space-between;
+        align-items: center;
+    width: 70%;
+    padding: 2% 10%;
+        background: linear-gradient(to right, #1f2a7145, #2c2c9f);
+        color: white;
+        border-radius: 10px;
+    font-size: 100%;
+      margin: 10%;
+    }
+
+.top-logo{
+      display: flex;
+      width: 10%;
+      height: 100%;
+      margin-right: 5%;
+
+    
+    }
+
+ .top-name{
+      display: flex;
+      margin-right: 10%;
+    }
+
+h3 {
+      font-size: 100%;
+      font-family: Lexend;
+      color: white;
+    }
   
 
  
- 
-  /* Small Mobile Styles */
 
-  @media (max-width: 400px) {
-    a {
-      font-family: Lexend;
-      color: white;
-      margin: 0;
-      text-decoration: none;
-    }
+  .nav-links {
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    display: flex;  /* Flexbox makes the items align in a row */
+    gap: 10%;  /* Adds space between the links */
+  }
 
-    body {
-      background-attachment: fixed;
-      overflow-x: hidden; 
+ .single-merill-image {
+      width: 100%;
+      height: auto;
     }
 
-    h1 {
-      font-size: 200%;
-      font-family: Lexend;
-      color: white;
-    }
-    
-  
-    h3 {
-      font-size: 200%;
-      font-family: Lexend;
-      color: white;
-    }
-    
-
-    
-    p {
-      font-size: 50%;
-      font-family: Lexend;
-      color: white;
-    }
-    
-    h4 {
-      font-size: 150%;
-      font-family: Lexend;
-      color: white;
-      margin-right: 50px; 
-    }
-
-    
-    h2 {
-      font-size: 40%;
-      font-family: Lexend;
-      color: white;
-    }
-
-  
-   
-    .bottom-container {
-      display: flex;
-      height: 10px;
-      justify-content: center;
-      align-items: center;
-      padding: 10% 5%;
-      background: rgba(255, 255, 255, 0.733);
-      color: linear-gradient(to right, #3e4780, #1111b088);
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-    .single-merill-image {
-      width: 80%;
-      height: 80%;
-      margin-bottom: 10%;
-    }
-
-    .privacy-headings-container {
+ .logo-container{
         display: flex;
-        justify-content: left;
-        margin-left: 5%;
-        margin-bottom: 5%;
-        margin-top: 5%; 
-      }
-    
-      
-    li {
-        font-size: 80%;
-        font-family: Lexend;
+        align-items: center;
+        width: 80%;
+        height: 40%;
+        padding: 2%, 2%;
+        background: linear-gradient(to bottom, #00000095, #00000043);
         color: white;
-      }
+        border-radius: 2%;
+        opacity: 100%;
+        margin-bottom: 10%
+    }
 
-      .game_img {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        width: 50%;
-        height: 50%;
-        display: flex;
-    
-        }
-
-        .rounded-image {
+ .rounded-image {
           border-radius: 5px;
         }
 
-            
-      .top-container {
-        display: flex;
-        height: 40px;
-        justify-content: center;
-        align-items: center;
-        padding: 2% 30%;
-        background: linear-gradient(to right, #1f2a7145, #2c2c9f);
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 10%;
-        margin-left: 1%;
-        margin-right: 1%;
-        font-size: 50%;
-    }
 
-    .top-logo{
-      display: flex;
-      width: 50%;
-      height: 50%;
-    
-    }
-
-    .top-name{
-      font-size: 20%;
-      display: flex;
-      margin-right: 30%;
-    }
-
-    .nav-links {
-      align-items: center;
-      font-size: 50%;
-      display: flex;  /* Flexbox makes the items align in a row */
-      gap: 20px;  /* Adds space between the links */
-    }
-
-
-    .logo-container{
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        background: linear-gradient(to bottom, #00000095, #00000043);
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 50%;
-        margin-left: 5%;
-        margin-right: 5%;
-        opacity: 100%;
-    }
-
-    
-    .game-container{
-      display: flex;
-      align-items: center;
-      justify-items: center;
-      padding: 20px 20px;
-      background: linear-gradient(to bottom, #400b96ea, #762154);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 60%;
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-top: 5%;
-      opacity: 100%;
-  }
-
-  .bottom-container h2 {
-
-    font-size: 60%;
-    font-family: Lexend;
-    color: rgba(19, 46, 199, 0.764);
-  }
-
-
-  
-    
-    
-  }
-  
-  
-
-  /* Big Mobile Styles */
-  @media (min-width: 401px) and (max-width: 600px) {
-    a {
-      font-family: Lexend;
-      color: white;
-      margin: 0;
-      text-decoration: none;
-    }
-
-    body {
-      background-attachment: fixed;
-      overflow-x: hidden; 
-    }
-
-    h1 {
-      font-size: 200%;
-      font-family: Lexend;
-      color: white;
-    }
-    
-  
-    h3 {
-      font-size: 120%;
-      font-family: Lexend;
-      color: white;
-    }
-    
-
-    
-    p {
-      font-size: 100%;
-      font-family: Lexend;
-      color: white;
-    }
-    
-    h4 {
-      font-size: 150%;
-      font-family: Lexend;
-      color: white;
-      margin-right: 50px; 
-    }
-
-    
-    h2 {
-      font-size: 100%;
-      font-family: Lexend;
-      color: white;
-    }
-
-  
-
-    .bottom-container {
-      display: flex;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 20px;
-      background: rgba(255, 255, 255, 0.733);
-      color: linear-gradient(to right, #3e4780, #1111b088);
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-  
-    .single-merill-image {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 15%;
-    }
-
-    .single-starcatch-image {
-        width: 50%;
-        height: 50%;
-      }
-
-
-    .privacy-headings-container {
-        display: flex;
-        justify-content: left;
-        margin-left: 5%;
-        margin-bottom: 5%;
-        margin-top: 5%; 
-      }
-      
-    .privacy-mini-container {
-        display: flex;
-        justify-content: left;
-        margin-left: 20px;
-        margin-bottom: 15px; 
-      }
-
-    .single-image {
-        margin-bottom: 10%;
-      }
-      
-    li {
-        font-size: 100%;
-        font-family: Lexend;
-        color: white;
-      }
-
-      .game_img {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-        width: 50%;
-        height: auto;
-        display: block;
-    
-        }
-
-        .rounded-image {
-          border-radius: 5px;
-        }
-
-      
-      .top-container {
-        display: flex;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-        padding: 2% 15%;
-        background: linear-gradient(to right, #1f2a7145, #2c2c9f);
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 2%;
-        font-size: 80%;
-    }
-
-    .top-logo{
-      display: flex;
-      width: 80%;
-      height: 80%;
-    
-    }
-
-    .top-name{
-      font-size: 100%;
-      display: flex;
-      margin-right: 30%;
-    }
-
-    .nav-links {
-      align-items: center;
-      font-size: 30;
-      display: flex;  /* Flexbox makes the items align in a row */
-      gap: 20px;  /* Adds space between the links */
-    }
-
-
-    .logo-container{
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        background: linear-gradient(to bottom, #00000095, #00000043);
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-        opacity: 100%;
-    }
-
-    
-    .game-container{
-      display: flex;
-      align-items: center;
-      justify-items: center;
-      padding: 20px 20px;
-      background: linear-gradient(to bottom, #400b96ea, #762154);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-top: 5%;
-      opacity: 100%;
-  }
-
-  .bottom-container h2 {
-
-    font-size: 170%;
-    font-family: Lexend;
-    color: rgba(19, 46, 199, 0.764);
-  }
-
-    
-    
-    }
-  
-  
-  /* Tablet Styles */
-  @media (min-width: 601px) and (max-width: 1024px) {
-
-    
-    body {
-      background-attachment: fixed;
-      overflow-x: hidden; 
-    }
-
-    
-    a {
-      font-family: Lexend;
-      color: white;
-      margin: 0;
-      text-decoration: none;
-    }
-
-    p {
-      font-size: 100%;
-      font-family: Lexend;
-      color: white;
-    }
-    
-    h4 {
-      font-size: 200%;
-      font-family: Lexend;
-      color: white;
-      margin-right: 50px; 
-    }
-
-    
-    h2 {
-      font-size: 150%;
-      font-family: Lexend;
-      color: white;
-    }
-
-    .bottom-container h2 {
-
-      font-size: 170%;
-      font-family: Lexend;
-      color: rgba(19, 46, 199, 0.764);
-    }
-
-    h1 {
-      font-size: 200%;
-      font-family: Lexend;
-      color: white;
-    }
-  
-    h3 {
-      font-size: 100%;
-      font-family: Lexend;
-      color: white;
-    }
-  
-    .center {
-      width: 80%;
-    }
-  
-    .single-merill-image {
-      width: 70%;
-      height: auto;
-      margin-bottom: 5%;
-      opacity: 100%;
-      
-
-    }
-
-
-    .bottom-container {
-      display: flex;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 20px;
-      background: rgba(255, 255, 255, 0.733);
-      color: linear-gradient(to right, #3e4780, #1111b088);
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-
-    .privacy-headings-container {
-      display: flex;
-      justify-content: left;
-      margin-left: 5%;
-      margin-bottom: 5%;
-      margin-top: 5%; 
-    }
-  
-
-    
-    li {
-      font-size: 100%;
-      font-family: Lexend;
-      color: white;
-    }
-
-    .game_img {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-      width: 40%;
-      height: 40%;
-      display: flex;
-     
-  
-      }
-
-      .rounded-image {
-        border-radius: 10px;
-      }
-
-      .top-container {
-        display: flex;
-        height: 50px;
-        justify-content: center;
-        align-items: center;
-        padding: 2% 20%;
-        background: linear-gradient(to right, #1f2a7145, #2c2c9f);
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .top-logo{
-      display: flex;
-      width: 100%;
-      height: 100%;
-    
-    }
-
-    .top-name{
-      font-size: 150%;
-      display: flex;
-      margin-right: 30%;
-    }
-
-    .nav-links {
-      align-items: center;
-      font-size: 120%;
-      display: flex;  /* Flexbox makes the items align in a row */
-      gap: 100px;  /* Adds space between the links */
-    }
-
-
-    .logo-container{
-        display: flex;
-        align-items: center;
-        padding: 2%;
-        background: linear-gradient(to bottom, #00000095, #00000043);
-        color: white;
-        border-radius: 10px;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-        opacity: 100%;
-    }
-
-    
-    .game-container{
-      display: flex;
-      align-items: center;
-      justify-items: center;
-      padding: 10% 10%;
-      background: linear-gradient(to bottom, #400b96ea, #762154);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-top: 10%;
-      opacity: 100%;
-  }
-  }
-
-
-  
-
-  /* Small Desktop Styles */
-  @media (min-width: 1025px) and (max-width: 1599px){
-
-
-    
-    body {
-      background-attachment: fixed;
-      overflow-x: hidden; 
-    }
-
-    .bottom-container h2 {
-
-      font-size: 170%;
-      font-family: Lexend;
-      color: rgba(19, 46, 199, 0.764);
-    }
-
-    
-    .bottom-container {
-      display: flex;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 20px;
-      background: rgba(255, 255, 255, 0.733);
-      color: linear-gradient(to right, #3e4780, #1111b088);
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-
-
-
-    h1 {
-      font-size: 300%;
-      font-family: Lexend;
-      color: white;
-    }
-  
-    h3 {
-      font-size: 200%;
-      font-family: Lexend;
-      color: white; 
-    }
-
-    p {
-      font-size: 10px;
-      font-family: Lexend;
-      color: white;
-    }
-    
-    h4 {
-      font-size: 200%;
-      font-family: Lexend;
-      color: white;
-      margin-right: 50px; 
-    }
-
-    
-    h2 {
-      font-size: 100%;
-      font-family: Lexend;
-      color: white;
-    }
-    
-
-    
-  
-    .center {
-      width: 50%;
-    }
-  
-
-    .single-merill-image {
-      width: 80%;
-      height: 80%;
-      margin-bottom: 20%;
-      
-    }
-
-
-    a {
-      font-family: Lexend;
-      color: white;
-      margin: 0;
-      text-decoration: none;
-    }
-
-      
-  
-    .privacy-headings-container {
-    display: flex;
-    justify-content: left;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    margin-top: 5%; 
-    }
-
-  
-    li {
-    font-size: 100%;
-    font-family: Lexend;
-    color: white;
-    }
-
-    .game_img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    width: 50%;
-    height: auto;
-    display: block;
-
-
-    
-    }
-
-     
-  .game_img:hover {
-    transform: scale(1.20);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 1.7);
-  }
-  
-  h3:hover {
-    transform: scale(1.20);
-  }
-  
-
-
-    .rounded-image {
-      border-radius: 15px;
-    }
-
-
-    .top-container {
-      display: flex;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      padding: 2% 20%;
-      background: linear-gradient(to right, #1f2a7145, #2c2c9f);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-  }
-
-  .top-logo{
-    display: flex;
-    width: 100%;
-    height: 100%;
-  
-  }
-
-  .top-name{
-    font-size: 100%;
-    display: flex;
-    margin-right: 30%;
-  }
-
-  .nav-links {
-    align-items: center;
-    font-size: 80%;
-    display: flex;  /* Flexbox makes the items align in a row */
-    gap: 100px;  /* Adds space between the links */
-  }
-
-
-  .logo-container{
-      display: flex;
-      align-items: center;
-      padding: 2%;
-      background: linear-gradient(to bottom, #00000095, #00000043);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-      opacity: 100%;
-  }
-
-  
-  .game-container{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    padding: 10% 10%;
-    background: linear-gradient(to bottom, #400b96ea, #762154);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10%;
-    opacity: 100%;
-}
-}
-
-
-  
-
-    /* Medium Desktop Styles */
-    @media (min-width: 1600px) and (max-width: 2199px) {
-
-
-      
-    body {
-      background-attachment: fixed;
-      overflow-x: hidden; 
-    }
-
-
-
-      h1 {
-        font-size: 100px;
-        font-family: Lexend;
-        color: white;
-      }
-    
-      h3 {
-        font-size: 250%;
-        font-family: Lexend;
-        color: white; 
-      }
-  
-      p {
-        font-size: 10px;
-        font-family: Lexend;
-        color: white;
-      }
-      
-      h4 {
-        font-size: 30px;
-        font-family: Lexend;
-        color: white;
-        margin-right: 50px; 
-      }
-  
-      
-      h2 {
-        font-size: 20px;
-        font-family: Lexend;
-        color: white;
-      }
-      
-  
-      
-    
-      .center {
-        width: 50%;
-      }
-    
-     
-    .bottom-container {
-      display: flex;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      padding: 10px 20px;
-      background: rgba(255, 255, 255, 0.733);
-      color: linear-gradient(to right, #3e4780, #1111b088);
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-    
-      .single-merill-image {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 50%;
-      }
-  
-  
-      a {
-        font-family: Lexend;
-        color: white;
-        margin: 0;
-        text-decoration: none;
-      }
-  
-        
-    
-      .privacy-headings-container {
-      display: flex;
-      justify-content: left;
-      margin-left: 100px;
-      margin-bottom: 40px;
-      margin-top: 40px; 
-      }
-
-  
-    
-    
-      li {
-      font-size: 20px;
-      font-family: Lexend;
-      color: white;
-      }
-  
-      .game_img {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-      width: 30%;
-      height: auto;
-      display: block;
-  
-  
-      
-      }
-  
-       
-    .game_img:hover {
-      transform: scale(1.20);
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 1.7);
-    }
-    
-    h3:hover {
-      transform: scale(1.20);
-    }
-    
-  
-  
-      .rounded-image {
-        border-radius: 15px;
-      }
-
-    .top-container {
-      display: flex;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      padding: 2% 20%;
-      background: linear-gradient(to right, #1f2a7145, #2c2c9f);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-  }
-
-  .top-logo{
-    display: flex;
-    width: 200%;
-    height: 200%;
-  
-  }
-
-  .top-name{
-    font-size: 100%;
-    display: flex;
-    margin-right: 30%;
-  }
-
-  .nav-links {
-    align-items: center;
-    font-size: 80%;
-    display: flex;  /* Flexbox makes the items align in a row */
-    gap: 100px;  /* Adds space between the links */
-  }
-
-
-  .logo-container{
-      display: flex;
-      align-items: center;
-      padding: 2%;
-      background: linear-gradient(to bottom, #00000095, #00000043);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-      opacity: 100%;
-  }
-
-  
-  .game-container{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    padding: 10% 10%;
-    background: linear-gradient(to bottom, #400b96ea, #762154);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10%;
-    opacity: 100%;
-
-
-
-
-    }
-
-
-    
-    .bottom-container h2 {
-
-      font-size: 170%;
-      font-family: Lexend;
-      color: rgba(19, 46, 199, 0.764);
-    }
-  }
-  
-
-  
-  /* Big Desktop Styles */
-  @media (min-width: 2200px) {
-
-
-    
-    body {
-      background-attachment: fixed;
-      overflow-x: hidden; 
-    }
 
 
 
@@ -1007,11 +124,7 @@ body {
       color: white;
     }
   
-    h3 {
-      font-size: 250%;
-      font-family: Lexend;
-      color: white; 
-    }
+
 
     p {
       font-size: 10px;
@@ -1054,20 +167,6 @@ body {
       margin-right: 5%;
     }
   
-    .single-merill-image {
-      width: 80%;
-      height: 80%;
-      margin-bottom: 20%;
-    }
-
-
-    a {
-      font-family: Lexend;
-      color: white;
-      margin: 0;
-      text-decoration: none;
-    }
-
       
   
     .privacy-headings-container {
@@ -1106,75 +205,24 @@ body {
   h3:hover {
     transform: scale(1.20);
   }
-  
 
 
-    .rounded-image {
-      border-radius: 15px;
-    }
-
-    
-    .top-container {
-      display: flex;
-      height: 50px;
-      justify-content: center;
-      align-items: center;
-      padding: 2% 20%;
-      background: linear-gradient(to right, #1f2a7145, #2c2c9f);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-  }
-
-  .top-logo{
-    display: flex;
-    width: 200%;
-    height: 200%;
-  
-  }
-
-  .top-name{
-    font-size: 100%;
-    display: flex;
-    margin-right: 30%;
-  }
-
-  .nav-links {
-    align-items: center;
-    font-size: 80%;
-    display: flex;  /* Flexbox makes the items align in a row */
-    gap: 100px;  /* Adds space between the links */
-  }
 
 
-  .logo-container{
-      display: flex;
-      align-items: center;
-      padding: 2%;
-      background: linear-gradient(to bottom, #00000095, #00000043);
-      color: white;
-      border-radius: 10px;
-      margin-bottom: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-      opacity: 100%;
-  }
+
 
   
   .game-container{
     display: flex;
+    width: 60%;
+    height: 20%;
     align-items: center;
     justify-items: center;
     padding: 10% 10%;
     background: linear-gradient(to bottom, #400b96ea, #762154);
     color: white;
     border-radius: 10px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10%;
+ 
     opacity: 100%;
 
 
@@ -1189,6 +237,4 @@ body {
   font-family: Lexend;
   color: rgba(19, 46, 199, 0.764);
 }
-  }
-
 
