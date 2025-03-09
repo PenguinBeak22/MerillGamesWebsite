@@ -89,12 +89,7 @@ a {
       margin-right: 10%;
     }
 
-h3 {
-      font-size: 120%;
-      font-family: Lexend;
-      color: rgba(45, 22, 219, 0.656);
-      font-size: 100%;
-    }
+
   
 
  
@@ -185,7 +180,27 @@ h3 {
       font-family: Lexend;
       color: white;
     }
+
+    h2 {
+      font-size: 130%;
+      font-family: Lexend;
+      color: white;
+    }
+    
+    h3 {
+      font-size: 120%;
+      font-family: Lexend;
+      color: rgba(45, 22, 219, 0.656);
+      font-size: 100%;
+    }
   
+
+    h4 {
+      font-size: 200%;
+      font-family: Lexend;
+      color: white;
+    }
+
 
 
     p {
@@ -194,18 +209,14 @@ h3 {
       color: white;
     }
     
-    h4 {
-      font-size: 200%;
-      font-family: Lexend;
-      color: white;
-    }
-
+  
     
-    h2 {
-      font-size: 130%;
+    li {
+      font-size: 150%;
       font-family: Lexend;
       color: white;
-    }
+      }
+  
     
 
     
@@ -245,12 +256,6 @@ h3 {
       }
   
 
-    li {
-    font-size: 150%;
-    font-family: Lexend;
-    color: white;
-    }
-
    
 
 .bottom-container h2 {
@@ -258,5 +263,66 @@ h3 {
   font-size: 170%;
   font-family: Lexend;
   color: rgba(19, 46, 199, 0.764);
+}
+
+
+
+@media (max-width: 767px) {
+  /* Styles for screens smaller than 768px, typically mobile devices */
+  h3 {
+    font-size: 10px;
+  }
+
+  
+.top-logo{
+  display: flex;
+  width: 10%;
+  height: 80%;
+  margin-right: 10%;
+
+
+}
+
+}
+
+@media (min-width: 768px) {
+  /* Styles for screens smaller than 768px, typically mobile devices */
+  h3 {
+    font-size: 20px;
+  }
+
+  
+.top-logo{
+  display: flex;
+  width: 10%;
+  height: 80%;
+  margin-right: 10%;
+
+
+    
+}
+        
+
+}
+
+
+
+
+@media (min-width: 1400px) {
+  /* Styles for screens smaller than 768px, typically mobile devices */
+  h3 {
+    font-size: 30px;
+  }
+
+  
+.top-logo{
+  display: flex;
+  width: 10%;
+  height: 100%;
+  margin-right: 10%;
+
+
+}
+
 }
 
