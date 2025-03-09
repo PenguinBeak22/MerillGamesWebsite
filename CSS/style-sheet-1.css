@@ -52,9 +52,10 @@ a {
 
   
     font-family: Lexend;
-    color: rgb(41, 17, 221);
+    color: rgba(45, 22, 219, 0.656);
     margin: 0;
     text-decoration: none;
+    font-size: 100%;
     
   
 
@@ -66,12 +67,11 @@ a {
         height: 8%;
         justify-content: space-between;
         align-items: center;
-        width: 80%;
+        width: 70%;
         padding: 2% 10%;
         background:rgb(255, 255, 255);
         color: white;
         border-radius: 10px;
-        font-size: 100%;
         margin: 10%;
     }
 
@@ -92,7 +92,8 @@ a {
 h3 {
       font-size: 120%;
       font-family: Lexend;
-      color: rgb(41, 17, 221);
+      color: rgba(45, 22, 219, 0.656);
+      font-size: 100%;
     }
   
 
